@@ -66,7 +66,7 @@
    - Conjunto de dados foi dividido em três 
      - Treinamento (0.70); Validação (0.20); Teste (0.10)
    - Foi importado através do transformers
-   - BertTokenizer  Realiza a tokenização das palavras
+   - BertTokenizer: Realiza a tokenização das palavras
    - Modelo pré-treinado:
      - BertForSequenceClassification.from_pretrained('neuralmind/bert-base-portuguese-cased’)
      - 
